@@ -2,8 +2,8 @@ import React from 'react';
 
 const IntroHeader = () => {
     return (
-        <div>
-            <h1>Alexander Hoskinson</h1>
+        <div class="intro-header">
+            <h1 class="intro-title">Alexander Hoskinson</h1>
             <h3>Full-Stack Web Developer</h3>
         </div>
     )
