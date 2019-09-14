@@ -1,12 +1,19 @@
 import React from 'react';
 import './style.css';
 import IntroHeader from '../IntroHeader';
+import Projects from '../Projects';
+import Skills from '../Skills';
+import Experience from '../Experience';
+import Contact from '../Contact';
 
 function App() {
   return (
     <div className="App">
-      This is my site.
       <IntroHeader />
+      <Projects />
+      <Skills />
+      <Experience />
+      <Contact />
     </div>
   );
 }
