@@ -2,16 +2,38 @@
   text-align: center;
 }
 
+.main-header {
+  background-color: black;
+}
 .intro-header {
   height: 100vh;
-  background-color: blue;
-  color: white;
+  /* background-color: #DE7A22; */
+  background-color: #F9DC24;
+  /* background-color: #FFD64D; */
+  /* position: absolute; */
+  color: black;
+  margin: 0;
+  font-size: 6rem;
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+}
+
+.intro-text {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.intro-sub {
+  /* margin: 100 0 0 0; */
+  margin: 0;
+  color: black;
+}
+.intro-title {
+  padding: .5rem 0 0 0;
   margin: 0;
 }
 
-.intro-title {
-  margin: 0;
-}
 
 /* .App-logo {
   animation: App-logo-spin infinite 20s linear;
