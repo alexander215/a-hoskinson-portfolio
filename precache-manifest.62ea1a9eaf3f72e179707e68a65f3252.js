@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f25ea125c555ee8d0cbfacecb80434a3",
+    "revision": "1916e404397b64738fe007512d02e39d",
     "url": "alexhoskinson.com/index.html"
   },
   {
-    "revision": "fb5b87f0f5ef945de1f1",
+    "revision": "61ad95a6462718b9e02a",
     "url": "alexhoskinson.com/static/css/main.af0d9c09.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "alexhoskinson.com/static/js/2.3d54f4cc.chunk.js"
   },
   {
-    "revision": "fb5b87f0f5ef945de1f1",
-    "url": "alexhoskinson.com/static/js/main.690a2393.chunk.js"
+    "revision": "61ad95a6462718b9e02a",
+    "url": "alexhoskinson.com/static/js/main.9f9fa8ed.chunk.js"
   },
   {
     "revision": "f8be27d1aaf7a633bf22",
