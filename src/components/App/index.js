@@ -6,16 +6,13 @@ import Skills from '../Skills';
 import Experience from '../Experience';
 import Education from '../Education';
 import Contact from '../Contact';
+import ComingSoon from '../ComingSoon';
 
 function App() {
   return (
     <div className="App">
       <IntroHeader />
-      <Projects />
-      <Skills />
-      <Experience />
-      <Education />
-      <Contact />
+      <ComingSoon />
     </div>
   );
 }
