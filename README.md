@@ -2,6 +2,8 @@
 
 This is my portfolio website. It will be a living site that will be consistently updated to match my latest skills and projects.
 
+Visit the site: alexhoskinson.com
+
 ## Contents
 
 Among other things, it will contain the following sections:
