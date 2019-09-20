@@ -14,13 +14,13 @@
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 } */
 
-.intro-text {
+/* .intro-text {
   position: absolute;
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-}
+} */
 .intro-sub {
   /* margin: 100 0 0 0; */
   margin: 0;
