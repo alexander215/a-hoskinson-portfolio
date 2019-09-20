@@ -1,14 +1,19 @@
+import styled from 'styled-components'
+
+export const IntroHeaderContainer = styled.div`
+    height: 90vh;
+    background-color: #F9DC24;
+    color: black;
+    margin: 0;
+    font-size: 6rem;
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+    
+`
 
 // .main-header {
 //     background-color: black;
 //   }
 //   .intro-header {
-//     height: 90vh;
-//     background-color: #F9DC24;
-//     color: black;
-//     margin: 0;
-//     font-size: 6rem;
-//     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 //   }
   
 //   .intro-text {
