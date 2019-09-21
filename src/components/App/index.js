@@ -1,6 +1,7 @@
 import React from 'react';
 import './style.css';
 import IntroHeader from '../IntroHeader';
+import About from '../About';
 import Projects from '../Projects';
 import Skills from '../Skills';
 import Experience from '../Experience';
@@ -12,9 +13,10 @@ function App() {
   return (
     <div className="App">
       <IntroHeader />
-      <ComingSoon />
+      <About />
     </div>
   );
 }
+{/* <ComingSoon /> */}
 
 export default App;
