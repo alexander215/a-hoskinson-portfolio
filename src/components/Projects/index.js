@@ -1,12 +1,17 @@
 import React from 'react';
+import { ProjectsContainer, ProjectsTextContainer, SectionHeaderBlack } from './style';
+
 
 const Projects = () => {
     return (
-        <div>
-            <h2>
-                My Projects:
-            </h2>
-        </div>
+        <ProjectsContainer>
+            <ProjectsTextContainer>
+                <SectionHeaderBlack>
+                    My Projects:
+                </SectionHeaderBlack>
+            </ProjectsTextContainer>
+        </ProjectsContainer>
+        
     )
 }
 
