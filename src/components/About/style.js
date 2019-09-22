@@ -26,6 +26,7 @@ export const AboutHeadingText = styled.div`
     color: white;
     max-width: 80%;
     margin: 0 auto;
-    padding: 5% 0 10% 0;
+    // padding: 5% 0 10% 0;
+    padding: 5% 0 0 0;
     text-align: left;
 `

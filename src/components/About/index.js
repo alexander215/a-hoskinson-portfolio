@@ -6,10 +6,10 @@ const About = () => {
         <AboutContainer>
             <AboutTextContainer>
                 <SectionHeaderYellow>
-                    About
+                    About Me
                 </SectionHeaderYellow>
                 <AboutHeadingText>
-                    Hi, I’m Alex - a full-stack developer with a passion for creating enjoyable React apps. 
+                    Hi, <b>I’m Alex</b> - a full-stack developer with a passion for creating enjoyable React apps. 
                     <br/>
                     <br/>
                     I have the heart of an explorer, and I spent much of the past decade living out of my comfort zone in different corners of Europe. I learned to love the challenges of life abroad, and I perfected the art of adapting to new situations. 
