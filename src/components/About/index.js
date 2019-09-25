@@ -1,5 +1,6 @@
 import React from 'react';
-import { AboutTextContainer, SectionHeaderYellow, AboutHeadingText, AboutContainer } from './style';
+import { AboutTextContainer, AboutHeadingText, AboutContainer } from './style';
+import { SectionHeaderYellow } from '../App/style';
 
 const About = () => {
     return (

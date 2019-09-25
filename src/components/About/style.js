@@ -13,15 +13,6 @@ export const AboutTextContainer = styled.div`
     // background-color: red;
 `
 
-export const SectionHeaderYellow = styled.h1`
-    margin: 0;
-    color: #F9DC24;
-    text-align: left;
-    text-transform: uppercase;
-    // text-decoration: underline;
-    border-bottom: 3px solid;
-`
-
 export const AboutHeadingText = styled.div`
     color: white;
     max-width: 80%;

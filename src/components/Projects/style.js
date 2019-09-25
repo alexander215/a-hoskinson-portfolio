@@ -14,15 +14,6 @@ export const ProjectsTextContainer = styled.div`
     // background-color: red;
 `
 
-export const SectionHeaderBlack = styled.h1`
-    margin: 0;
-    color: black;
-    text-align: left;
-    text-transform: uppercase;
-    // text-decoration: underline;
-    border-bottom: 3px solid;
-`
-
 export const ProjectCardContainer = styled.div`
     display: flex;
     flex-wrap: wrap;

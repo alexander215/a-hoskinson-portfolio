@@ -1,5 +1,6 @@
 import React from 'react';
-import { ProjectsContainer, ProjectsTextContainer, SectionHeaderBlack, ProjectCardContainer, ProjectCard, ProjectCardTitle } from './style';
+import { ProjectsContainer, ProjectsTextContainer, ProjectCardContainer, ProjectCard, ProjectCardTitle } from './style';
+import { SectionHeaderBlack } from '../App/style';
 
 
 const Projects = () => {

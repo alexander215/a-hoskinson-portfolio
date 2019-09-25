@@ -8,14 +8,15 @@ import Experience from '../Experience';
 import Education from '../Education';
 import Contact from '../Contact';
 import ComingSoon from '../ComingSoon';
+import { AppLayout } from './style';
 
 function App() {
   return (
-    <div className="App">
-      <IntroHeader />
-      <About />
-      <Projects />
-    </div>
+      <AppLayout>
+        <IntroHeader />
+        <About />
+        <Projects />
+      </AppLayout>
   );
 }
 {/* <ComingSoon /> */}
