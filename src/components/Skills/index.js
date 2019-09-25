@@ -4,7 +4,7 @@ const Skills = () => {
     return (
         <div>
         <h2>
-            My Skills:
+            Technical Skills:
         </h2>
             <ul>
                 <li>

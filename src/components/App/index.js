@@ -16,9 +16,10 @@ function App() {
         <IntroHeader />
         <About />
         <Projects />
+        <Skills />
+        <Experience />
       </AppLayout>
   );
 }
-{/* <ComingSoon /> */}
 
 export default App;
