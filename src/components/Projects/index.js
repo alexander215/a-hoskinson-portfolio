@@ -1,5 +1,5 @@
 import React from 'react';
-import { ProjectsContainer, ProjectsTextContainer, ProjectCardContainer, ProjectCard, ProjectCardTitle } from './style';
+import { ProjectsContainer, ProjectsTextContainer, ProjectCardContainer, ProjectCard, ProjectCardTitle, ProjectLink } from './style';
 import { SectionHeaderBlack } from '../App/style';
 
 
@@ -22,6 +22,9 @@ const Projects = () => {
                             In three days, we planned, designed, built, and deployed this interactive dashboard as a React web app. 
 
                             Technologies used:  HTML, CSS/Styled Components, React, Node.js, Google Firebase/Realtime Database, Google Drive, and Figma. */}
+                        <ProjectLink>
+                            <a href='https://github.com/alexander215/lafpc-food-dashboard'>See the dashboard.</a>
+                        </ProjectLink>
                     </ProjectCard>
                     <ProjectCard>
                         <ProjectCardTitle>

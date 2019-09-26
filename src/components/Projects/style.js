@@ -41,3 +41,19 @@ export const ProjectCardTitle = styled.h3`
     color: #F9DC24;
     text-decoration: underline;
 `
+
+export const ProjectLink = styled.div`
+    text-align: center;
+    margin: 10% 0 0 0;
+    a:link {
+        color: #F9F9F3;
+    }
+    a:visited {
+        color: #F9F9F3;
+        }
+    a:hover {
+        text-decoration: none;
+        color: #F9DC24;
+        text-transform: uppercase;
+        }
+`
