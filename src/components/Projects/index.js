@@ -28,9 +28,30 @@ const Projects = () => {
                     </ProjectCard>
                     <ProjectCard>
                         <ProjectCardTitle>
-                            Project 2
+                            People Behind the Projects
                         </ProjectCardTitle>
-                            This is my second project
+                            Full-stack React app that allows early-stage developers to share projects and feedback.
+                        <ProjectLink>
+                            <a href='https://github.com/alexander215/frontend-dev-social-network'>Test your profile.</a>
+                        </ProjectLink>
+                    </ProjectCard>
+                    <ProjectCard>
+                        <ProjectCardTitle>
+                            Escape Route
+                        </ProjectCardTitle>
+                            A trip-planning CRUD app built on MongoDB, Express, and Node.js.
+                        <ProjectLink>
+                            <a href='https://github.com/alexander215/Travel-CRUD-Project'>Plan your trip.</a>
+                        </ProjectLink>
+                    </ProjectCard>
+                    <ProjectCard>
+                        <ProjectCardTitle>
+                            Histor-ivia
+                        </ProjectCardTitle>
+                            A multiple-choice trivia game built in JavaScript.
+                        <ProjectLink>
+                            <a href='https://github.com/alexander215/trivia-game'>Test your knowledge.</a>
+                        </ProjectLink>
                     </ProjectCard>
                 </ProjectCardContainer>
             </ProjectsTextContainer>
