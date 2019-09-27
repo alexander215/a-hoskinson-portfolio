@@ -1,12 +1,12 @@
 import React from 'react';
+import { ExperienceContainer } from './style';
+
 
 const Experience = () => {
     return (
-        <div>
-            <h2>
-                Experience:
-            </h2>
-        </div>
+        <ExperienceContainer>
+            Experience
+        </ExperienceContainer>
     )
 }
 
