@@ -58,8 +58,35 @@ export const ProjectCard = styled.div`
     text-align: left;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
     border-radius: 25px;
+    @media ${deviceSize.mobileS}{
+        width: 90%;
+        
+    }
+    
+    @media ${deviceSize.mobileM} {
+        
+    }
+    
+    @media ${deviceSize.mobileL}{
+        
+    }
     @media ${deviceSize.tablet}{
-        width: 20%;
+        margin: 10% auto 0 auto;
+        // width: 20%;
+        width: 35%;
+        
+
+    }
+    @media ${deviceSize.laptop}{
+
+    }
+    @media ${deviceSize.laptopL}{
+
+    }
+    @media ${deviceSize.desktop}{
+
+    }
+    @media ${deviceSize.tablet}{
 
     }
 
