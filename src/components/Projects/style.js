@@ -4,14 +4,43 @@ import { deviceSize } from '../App/device.js'
 export const ProjectsContainer = styled.div`
     background-color: #F9DC24;
     clip-path: polygon(50% 16%,100% 0,100% 85%,50% 100%,0% 85%,0 0);
-    // padding: 10%;
+    @media ${deviceSize.mobileS}{
+        clip-path: polygon(50% 6%,100% 0,100% 95%,50% 100%,0% 95%,0 0);
+        // clip-path: polygon(50% 6%,100% 0,100% 85%,50% 91%,0% 85%,0 0);
+        
+
+    }
 `
 
 export const ProjectsTextContainer = styled.div`
     max-width: 70%;
     margin: 5% auto 5% auto;
     padding: 10% 0; 
-    // background-color: red;
+    @media ${deviceSize.mobileS}{
+        padding: 30% 0 15% 0;
+
+    }
+    
+    @media ${deviceSize.mobileM} {
+
+    }
+    
+    @media ${deviceSize.mobileL}{
+
+    }
+    @media ${deviceSize.tablet}{
+        padding: 15% 0 7% 0;
+
+    }
+    @media ${deviceSize.laptop}{
+
+    }
+    @media ${deviceSize.laptopL}{
+
+    }
+    @media ${deviceSize.desktop}{
+
+    }
 `
 
 export const ProjectCardContainer = styled.div`
