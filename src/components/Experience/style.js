@@ -20,10 +20,12 @@ export const ExperienceItemContainer = styled.div`
 `
 
 export const ExperienceItemTitle = styled.h3`
-    // margin: 0 0 5% 0;
-    // color: #F9DC24;
+    margin: 1% 0;
     text-decoration: underline;
 `
-export const ExperienceJobTitle = styled.div`
+export const ExperienceCompany = styled.div`
     font-weight: 700;
+`
+export const ExperienceLocation = styled.div`
+    font-style: italic;
 `
