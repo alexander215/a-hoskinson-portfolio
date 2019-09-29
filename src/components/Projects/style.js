@@ -100,7 +100,7 @@ export const ProjectCardTitle = styled.h3`
 
 export const ProjectLink = styled.div`
     text-align: center;
-    margin: 10% 0 0 0;
+    margin: 5% 0 0 0;
     a:link {
         color: #F9F9F3;
     }
