@@ -97,10 +97,14 @@ export const ProjectCardTitle = styled.h3`
     color: #F9DC24;
     text-decoration: underline;
 `
-
+export const LinkContainer = styled.div`
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+`
 export const ProjectLink = styled.div`
     text-align: center;
-    margin: 10% 0 0 0;
+    margin: 10% 5% 0 0;
     a:link {
         color: #F9F9F3;
     }
