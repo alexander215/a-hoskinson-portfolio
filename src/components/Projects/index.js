@@ -8,7 +8,8 @@ const Projects = () => {
         <ProjectsContainer>
             <ProjectsTextContainer>
                 <SectionHeaderBlack>
-                    My Projects:
+                    {/* My Projects: */}
+                    Favorite Projects:
                 </SectionHeaderBlack>
                 <ProjectCardContainer>
                     <ProjectCard>
