@@ -33,7 +33,7 @@ export const ExperienceContainer = styled.div`
 
     }
 
-    `
+`
 export const ExperienceTextContainer = styled.div`
     max-width: 70%;
     margin: 5% auto 5% auto;
