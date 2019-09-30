@@ -3,8 +3,36 @@ import { deviceSize } from '../App/device.js'
 
 export const ExperienceContainer = styled.div`
     background-color: #F9DC24;
-    clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
     margin: 0;
+    @media ${deviceSize.mobileS}{
+        clip-path: polygon(20% 0%,80% 0%,100% 3%,100% 96%,80% 100%,20% 100%,0% 96%,0% 3%);
+        
+    }
+    
+    @media ${deviceSize.mobileM} {
+        
+    }
+    
+    @media ${deviceSize.mobileL}{
+        
+    }
+    @media ${deviceSize.tablet}{
+        clip-path: polygon(20% 0%,80% 0%,100% 10%,100% 90%,80% 100%,20% 100%,0% 90%,0% 10%);
+
+    }
+    @media ${deviceSize.laptop}{
+
+    }
+    @media ${deviceSize.laptopL}{
+
+    }
+    @media ${deviceSize.desktop}{
+
+    }
+    @media ${deviceSize.tablet}{
+
+    }
+
     `
 export const ExperienceTextContainer = styled.div`
     max-width: 70%;
