@@ -80,8 +80,17 @@ export const IntroSub = styled.h3`
 
 export const LinkContainer = styled.div`
     display: flex;
-    justify-content: space-around;
-    margin: 2%;
+    justify-content: space-between;
+    margin: 2% auto;
+    max-width: 20%;
+    img-height: 40px;
 
 `
-// margin: 100 0 0 0;
+export const LogoLink = styled.a`
+    cursor: pointer;
+    `
+// export const LogoImg = styled.div`
+//     // height: 50px;
+//     background-color: red;
+    
+// `

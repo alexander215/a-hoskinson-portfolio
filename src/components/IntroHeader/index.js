@@ -1,5 +1,5 @@
 import React from 'react';
-import { IntroHeaderContainer, IntroTextContainer, IntroTitle, IntroSub, LinkContainer } from './style.js';
+import { IntroHeaderContainer, IntroTextContainer, IntroTitle, IntroSub, LinkContainer, LogoLink, LogoImg } from './style.js';
 import github from './github-logo.png';
 import linkedin from './LinkedInLogoBlack.png';
 
@@ -14,8 +14,17 @@ const IntroHeader = () => {
                         Full-Stack Web Developer
                     </IntroSub>
                     <LinkContainer>
-                        <img src={github} alt="GitHub Logo" height='50px'/>
-                        <img src={linkedin} alt="LinkedIn logo" height='50px'/>
+                        <LogoLink>
+                            <a href='https://github.com/alexander215' target="_blank" >
+                                <img src={github} alt='GitHub Logo' height='40px' />      
+                            </a>
+                        </LogoLink>
+                        <LogoLink>
+                            <a href='https://www.linkedin.com/in/alexhoskinson/' target='_blank'>
+                                <img src={linkedin} alt="LinkedIn logo" height='40px'/>
+                            </a>
+                        </LogoLink>
+
                         
                     </LinkContainer>
                 </IntroTextContainer>
