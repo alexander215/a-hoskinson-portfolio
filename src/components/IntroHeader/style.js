@@ -77,4 +77,11 @@ export const IntroSub = styled.h3`
 
     }
 `
+
+export const LinkContainer = styled.div`
+    display: flex;
+    justify-content: space-around;
+    margin: 2%;
+
+`
 // margin: 100 0 0 0;
