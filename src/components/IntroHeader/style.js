@@ -3,11 +3,12 @@ import { deviceSize } from '../App/device.js'
 
 export const IntroHeaderContainer = styled.div`
     height: 90vh;
+    
     background-color: #F9DC24;
     color: black;
     margin: 0;
     font-size: 6rem;
-    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+    // clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
     @media ${deviceSize.mobileS}{
         font-size: 3.5rem;
         clip-path: polygon(0 0, 100% 0, 100% 72vh, 0 100%);
@@ -16,14 +17,16 @@ export const IntroHeaderContainer = styled.div`
     
     @media ${deviceSize.mobileM} {
         font-size: 4rem;
-
+        
     }
     
     @media ${deviceSize.mobileL}{
         font-size: 5rem;
     }
     @media ${deviceSize.tablet}{
-
+        clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+        height: 100vh;
+        
     }
     @media ${deviceSize.laptop}{
 
