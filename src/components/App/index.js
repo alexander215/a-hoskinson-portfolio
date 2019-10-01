@@ -18,6 +18,7 @@ function App() {
         <Projects />
         <Skills />
         <Experience />
+        <Education />
       </AppLayout>
   );
 }
