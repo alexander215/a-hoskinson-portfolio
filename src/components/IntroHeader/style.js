@@ -17,7 +17,6 @@ export const IntroHeaderContainer = styled.div`
     
     @media ${deviceSize.mobileM} {
         font-size: 4rem;
-        
     }
     
     @media ${deviceSize.mobileL}{
@@ -25,19 +24,8 @@ export const IntroHeaderContainer = styled.div`
     }
     @media ${deviceSize.tablet}{
         clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
-        height: 100vh;
-        
-    }
-    @media ${deviceSize.laptop}{
-
-    }
-    @media ${deviceSize.laptopL}{
-
-    }
-    @media ${deviceSize.desktop}{
-
-    }
-    
+        height: 100vh;        
+    }   
 `
 export const IntroTextContainer = styled.div`
     position: absolute;
@@ -56,29 +44,6 @@ export const IntroTitle = styled.h1`
 export const IntroSub = styled.h3`
     margin: 0;
     color: black;
-    @media ${deviceSize.mobileS}{
-
-    }
-    
-    @media ${deviceSize.mobileM} {
-        
-    }
-    
-    @media ${deviceSize.mobileL}{
-        
-    }
-    @media ${deviceSize.tablet}{
-
-    }
-    @media ${deviceSize.laptop}{
-
-    }
-    @media ${deviceSize.laptopL}{
-
-    }
-    @media ${deviceSize.desktop}{
-
-    }
 `
 
 export const LinkContainer = styled.div`
@@ -97,18 +62,11 @@ export const LinkContainer = styled.div`
     `
 export const LogoLink = styled.a`
     cursor: pointer;
-    // width: 40px;
-    // height: 40px;
-    // X: 5px;
-    // Y: 5px;
-    // X Constraint: Scale;
-    // Y Constraint: Scale;
     `
 export const SocialLogo = styled.img`
         height: 25px;
-    @media ${deviceSize.tablet}{
-        height: 40px;
-        
-        
+
+        @media ${deviceSize.tablet}{
+            height: 40px;
     }
 `
