@@ -85,15 +85,30 @@ export const LinkContainer = styled.div`
     display: flex;
     justify-content: space-between;
     margin: 2% auto;
-    max-width: 20%;
+    max-width: 30%;
     img-height: 40px;
-
-`
+    @media ${deviceSize.tablet}{
+        max-width: 30%;
+    }
+    @media ${deviceSize.laptop}{
+        max-width: 20%;
+    }
+    
+    `
 export const LogoLink = styled.a`
     cursor: pointer;
+    // width: 40px;
+    // height: 40px;
+    // X: 5px;
+    // Y: 5px;
+    // X Constraint: Scale;
+    // Y Constraint: Scale;
     `
-// export const LogoImg = styled.div`
-//     // height: 50px;
-//     background-color: red;
-    
-// `
+export const SocialLogo = styled.img`
+        height: 25px;
+    @media ${deviceSize.tablet}{
+        height: 40px;
+        
+        
+    }
+`
