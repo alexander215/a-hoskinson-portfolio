@@ -2,7 +2,7 @@
 
 This is my portfolio website. It will be a living site that will be consistently updated to match my latest skills and projects.
 
-Visit the site: alexhoskinson.com
+Visit the site: [alexhoskinson.com](https://alexhoskinson.com/ "Alex Hoskinson's Portfolio Site")
 
 ## Contents
 
