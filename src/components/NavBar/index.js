@@ -12,7 +12,6 @@ const NavBar = () => {
             <a href='#skills'>Skills</a>
             <a href='#experience'>Experience</a>
             <a href='#education'>Education</a>
-            <a href='#about'>About</a>
         </div>
     )
 

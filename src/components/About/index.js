@@ -4,7 +4,7 @@ import { SectionHeaderYellow } from '../App/style';
 
 const About = () => {
     return (
-        <AboutContainer>
+        <AboutContainer id="about">
             <AboutTextContainer>
                 <SectionHeaderYellow>
                     About Me:
