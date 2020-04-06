@@ -5,7 +5,7 @@ import { EducationContainer, EducationTextContainer, EducationItemContainer, Edu
 
 const Education = () => {
     return (
-        <EducationContainer>
+        <EducationContainer id="education">
             <EducationTextContainer>
                 <SectionHeaderYellow>
                     Education:

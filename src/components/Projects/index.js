@@ -5,7 +5,7 @@ import { SectionHeaderBlack } from '../App/style';
 
 const Projects = () => {
     return (
-        <ProjectsContainer>
+        <ProjectsContainer id="projects">
             <ProjectsTextContainer>
                 <SectionHeaderBlack>
                     {/* My Projects: */}

@@ -6,6 +6,7 @@ import Projects from '../Projects';
 import Skills from '../Skills';
 import Experience from '../Experience';
 import Education from '../Education';
+import NavBar from '../NavBar';
 import Contact from '../Contact';
 import ComingSoon from '../ComingSoon';
 import { AppLayout } from './style';
@@ -13,6 +14,7 @@ import { AppLayout } from './style';
 function App() {
   return (
       <AppLayout>
+        <NavBar />
         <IntroHeader />
         <About />
         <Projects />

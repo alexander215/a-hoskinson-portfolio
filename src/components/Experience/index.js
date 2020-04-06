@@ -5,7 +5,7 @@ import { SectionHeaderBlack } from '../App/style';
 
 const Experience = () => {
     return (
-        <ExperienceContainer>
+        <ExperienceContainer id="experience">
             <ExperienceTextContainer>
                 <SectionHeaderBlack>
                     Experience:

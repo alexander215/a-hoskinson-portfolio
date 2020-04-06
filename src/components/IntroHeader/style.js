@@ -35,9 +35,12 @@ export const IntroTextContainer = styled.div`
     text-align: center;
 `
 export const IntroTitle = styled.h1`
-    padding: .5rem 0 0 0;
+    padding: 7rem 0 0 0;
     margin: 0;
     line-height: 1.1;
+    @media ${deviceSize.mobileL}{
+        padding: .5rem 0 0 0;
+    }
 
 `
 

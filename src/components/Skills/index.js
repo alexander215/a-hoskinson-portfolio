@@ -5,7 +5,7 @@ import { SkillsContainer, SkillsTextContainer, SkillsList, SkillsListItem } from
 
 const Skills = () => {
     return (
-        <SkillsContainer>
+        <SkillsContainer id="skills">
             <SkillsTextContainer>
                 <SectionHeaderYellow>
                     Technical Skills:
