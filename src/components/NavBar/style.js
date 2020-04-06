@@ -11,6 +11,7 @@ export const NavBarStyle = styled.div`
   flex-wrap: wrap;
   a {
     color: white;
+    font-family: 'Oswald', sans-serif;
     text-decoration: none;
     padding: 0.1em 1em;
     @media ${deviceSize.mobileL}{
