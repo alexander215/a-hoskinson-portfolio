@@ -1,5 +1,5 @@
 import React from 'react';
-import './style.css';
+// import './style.css';
 import IntroHeader from '../IntroHeader';
 import About from '../About';
 import Projects from '../Projects';
@@ -9,16 +9,19 @@ import Education from '../Education';
 import NavBar from '../NavBar';
 import Contact from '../Contact';
 import ComingSoon from '../ComingSoon';
-import { AppLayout } from './style';
-import HomePage from '../HomePage';
+import { AppLayout } from '../App/style';
 
-function App() {
+function HomePage() {
   return (
       <AppLayout>
-        <NavBar />
-        <HomePage />
+        <IntroHeader />
+        <About />
+        <Projects />
+        <Skills />
+        <Experience />
+        <Education />
       </AppLayout>
   );
 }
 
-export default App;
+export default HomePage;
