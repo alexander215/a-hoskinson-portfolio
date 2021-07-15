@@ -12,6 +12,43 @@ const Experience = () => {
                 </SectionHeaderBlack>
                 <ExperienceItemContainer>
                     <ExperienceItemTitle>
+                        Software Engineer
+                    </ExperienceItemTitle>
+                    <ExperienceCompany>
+                        Freelance
+                    </ExperienceCompany>
+                    <ExperienceLocation>
+                        Los Angeles, CA: Present
+                    </ExperienceLocation>
+                         Provide full-stack web development for multiple projects and clients.
+                </ExperienceItemContainer>
+                <ExperienceItemContainer>
+                    <ExperienceItemTitle>
+                        Software Engineer
+                    </ExperienceItemTitle>
+                    <ExperienceCompany>
+                        StackCommerce
+                    </ExperienceCompany>
+                    <ExperienceLocation>
+                        Los Angeles, CA: 2020 – 2021
+                    </ExperienceLocation>
+                        Primary role was to support the Retention Marketing team by automating time-consuming tasks, integrating 3rd party tools with our systems, building/maintaining email templates, promptly identifying &amp; fixing bugs, and completing ad hoc tasks.
+                        Primary languages: Ruby on Rails, JavaScript
+                </ExperienceItemContainer>
+                <ExperienceItemContainer>
+                    <ExperienceItemTitle>
+                        Software Engineer
+                    </ExperienceItemTitle>
+                    <ExperienceCompany>
+                        Freelance
+                    </ExperienceCompany>
+                    <ExperienceLocation>
+                        Los Angeles, CA: 2019 – 2020
+                    </ExperienceLocation>
+                        Created responsive and user-friendly web applications using React and other JavaScript frameworks.
+                </ExperienceItemContainer>
+                <ExperienceItemContainer>
+                    <ExperienceItemTitle>
                         Marketing and Communications Manager 
                     </ExperienceItemTitle>
                     <ExperienceCompany>
