@@ -10,7 +10,7 @@ const NavBar = () => {
     return(
         <NavBarStyle>
             <HashLink to='/'>Home</HashLink>
-            <HashLink to='/#about'>About</HashLink>
+            <HashLink smooth to='/#about'>About</HashLink>
             <HashLink to='/#projects'>Projects</HashLink>
             <HashLink to='/#skills'>Skills</HashLink>
             <HashLink to='/#experience'>Experience</HashLink>
