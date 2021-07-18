@@ -3,8 +3,6 @@ import { deviceSize } from '../App/device.js'
 
 
 export const CaseStudyContainer = styled.div`
-  min-height: 40vh;
-  background-color: red;
   background-color: #F9DC24;
   color: black;
   margin: 0;
@@ -12,13 +10,60 @@ export const CaseStudyContainer = styled.div`
 
 `
 export const CaseStudyIntroTextContainer = styled.div`
+  min-height: 40vh;
+  max-width: 90%;
+  margin: 0 auto;
+  @media ${deviceSize.mobileL} {
+      // font-size
+  }
 
 `
 export const CaseStudyTitle = styled.h1`
+  margin-top: 4.5rem;
+  margin-bottom: 2.5rem;
+  font-size: 3.12rem;
+  font: Oswald, sans-serif;
+  @media ${deviceSize.mobileL} {
+    font-size: 3.9rem;
+  }
+  @media ${deviceSize.laptop} {
+    font-size: 4.88rem;
+  }
 
 `
 export const CaseStudySub = styled.p`
+  max-width: 80%;
+  text-align: center;
+  margin: 2.5rem auto;
+  padding-bottom: 4.5rem;
+  border-bottom: solid 4px #707070;
+  @media ${deviceSize.mobileL} {
+    font-size: 2.5rem;
+  }
+`
 
+export const CSIntroNav = styled.div`
+  font-weight: 700;
+  font-size: 1.6rem;
+  padding-bottom: 4rem;
+  ul {
+    max-width: 70%;
+    list-style-type: none;
+    padding: 0;
+    padding-top: 1.5rem
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  li {
+    font-weight: 500;
+    padding: 1rem .5rem 0 .5rem;
+    text-decoration: underline;
+  }
+  @media ${deviceSize.mobileL} {
+    font-size: 2rem;
+  }
 `
 
 
