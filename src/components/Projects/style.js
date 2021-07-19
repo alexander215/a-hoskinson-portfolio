@@ -96,6 +96,7 @@ export const ProjectCardTitle = styled.h3`
     margin: 0 0 5% 0;
     color: #F9DC24;
     text-decoration: underline;
+    text-align: center;
 `
 
 export const ProjectLink = styled.div`

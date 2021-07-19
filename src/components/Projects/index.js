@@ -1,6 +1,9 @@
 import React from 'react';
 import { ProjectsContainer, ProjectsTextContainer, ProjectCardContainer, ProjectCard, ProjectCardTitle, ProjectLink } from './style';
 import { SectionHeaderBlack } from '../App/style';
+import * as ROUTES from '../../constants/routes';
+import { HashLink } from 'react-router-hash-link';
+import { Link } from 'react-router-dom';
 
 
 const Projects = () => {
@@ -12,6 +15,18 @@ const Projects = () => {
                     Favorite Projects:
                 </SectionHeaderBlack>
                 <ProjectCardContainer>
+                    <Link to={ROUTES.EMAIL_DEVELOPER_CASE_STUDY}>
+                        <ProjectCard>
+                            <ProjectCardTitle>
+                                Dynamic, Custom Email Template Creation &amp; Maintenance
+                            </ProjectCardTitle>
+                                I created and maintained email templates that were dynamically populated with custom content for a significant number of daily sends.
+                                <ProjectLink>
+                                    <Link to={ROUTES.EMAIL_DEVELOPER_CASE_STUDY}>Learn More</Link>
+                                </ProjectLink>
+                        </ProjectCard>
+                    </Link>
+
                     <ProjectCard>
                         <ProjectCardTitle>
                             LA Food Policy Council Dashboard
@@ -30,7 +45,7 @@ const Projects = () => {
                                 <a href='https://lafpc-food-dashboard.firebaseapp.com/'>Visit the dashboard.</a>
                             </ProjectLink>
                     </ProjectCard>
-                    <ProjectCard>
+                    {/* <ProjectCard>
                         <ProjectCardTitle>
                             People Behind the Projects
                         </ProjectCardTitle>
@@ -53,7 +68,7 @@ const Projects = () => {
                             <ProjectLink>
                                 <a href='https://protected-tundra-10241.herokuapp.com/'>Plan your trip.</a>
                             </ProjectLink>
-                    </ProjectCard>
+                    </ProjectCard> */}
                     <ProjectCard>
                         <ProjectCardTitle>
                             Histor-ivia

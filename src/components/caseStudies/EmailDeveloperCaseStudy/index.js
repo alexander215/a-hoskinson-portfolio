@@ -5,7 +5,7 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { HashLink } from 'react-router-hash-link';
 
 const EmailDeveloperCaseStudy = () => {
-  const thisPage = '/email-developer-case-study';
+  const thisPage = '/case-studies/email-developer-case-study';
 
   return (
     <CaseStudyContainer>

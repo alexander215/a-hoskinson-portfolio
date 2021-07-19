@@ -8,10 +8,12 @@ import * as ROUTES from '../../constants/routes'
 
 
 import EmailDeveloperCaseStudy from '../caseStudies/EmailDeveloperCaseStudy';
+import ScrollToTop from '../ScrollToTop';
 
 function App() {
   return (
       <AppLayout>
+        <ScrollToTop />
         <NavBar />
         <Switch>
           <Route exact path={ROUTES.HOME_PAGE} component={HomePage}/>
