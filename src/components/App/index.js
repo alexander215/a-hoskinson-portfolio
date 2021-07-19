@@ -14,8 +14,8 @@ function App() {
       <AppLayout>
         <NavBar />
         <Switch>
-          <HomePage exact path={ROUTES.HOME_PAGE} component={HomePage}/>
-          <EmailDeveloperCaseStudy exact path={ROUTES.EMAIL_DEVELOPER_CASE_STUDY} component={EmailDeveloperCaseStudy} />
+          <Route exact path={ROUTES.HOME_PAGE} component={HomePage}/>
+          <Route exact path={ROUTES.EMAIL_DEVELOPER_CASE_STUDY} component={EmailDeveloperCaseStudy} />
         </Switch>
       </AppLayout>
   );
