@@ -7,16 +7,11 @@ export const CaseStudyContainer = styled.div`
   color: black;
   margin: 0;
   padding-top: 3em;
-
 `
 export const CaseStudyIntroTextContainer = styled.div`
   min-height: 40vh;
   max-width: 90%;
   margin: 0 auto;
-  @media ${deviceSize.mobileL} {
-      // font-size
-  }
-
 `
 export const CaseStudyTitle = styled.h1`
   margin-top: 4.5rem;
@@ -29,7 +24,6 @@ export const CaseStudyTitle = styled.h1`
   @media ${deviceSize.laptop} {
     font-size: 4.88rem;
   }
-
 `
 export const CaseStudySub = styled.p`
   max-width: 80%;
@@ -39,6 +33,9 @@ export const CaseStudySub = styled.p`
   border-bottom: solid 4px #707070;
   @media ${deviceSize.mobileL} {
     font-size: 2.5rem;
+  }
+  @media ${deviceSize.laptop} {
+    font-size: 3.125rem;
   }
 `
 
@@ -64,91 +61,119 @@ export const CSIntroNav = styled.div`
   @media ${deviceSize.mobileL} {
     font-size: 2rem;
   }
+  @media ${deviceSize.laptop} {
+    font-size: 2.5rem;
+  }
 `
 
+export const CSBodySection = styled.div`
+  margin: 0 auto;
+  
+  p {
+      max-width: 85%;
+    margin: 0 auto;
+    font-size: 1.6rem;
+    line-height: 2.7rem;
+    padding-bottom: 8rem;
+  }
+  
+  ul {
+    color: #ffffff;
+    list-style-type: none;
+    text-align: left;
+    font-size: 2rem;
+    line-height: 2.6rem;
+    max-width: 85%;
+    margin: 0 auto;
+    padding: 0;
+    padding-bottom: 8rem;
+  
+  li {
+      padding-bottom: 1.5rem;
+    }
+  }
+  
+  h2 {
+    margin: 0 auto 5rem auto;
+    color: #000;
+    font-size: 2.5rem;
+    padding-top: 8.9rem;
+    padding-bottom: 1.5rem;
+    width: fit-content;
+    border-bottom: 2px solid #ffffff;
+  }
+  
+  a {
+    color: #000;
+  }
 
+  .dark-section {
+    background-color: #000;
+  
+    h2 {
+      color: #FCD73A;
+    }
 
+    p,a {
+      color: #FFFFFF;
+    }
+  }
 
-// export const IntroHeaderContainer = styled.div`
-//     // height: 90vh;
-    
-//     background-color: #F9DC24;
-//     color: black;
-//     margin: 0;
-//     font-size: 6rem;
-//     // clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
-//     @media ${deviceSize.mobileS}{
-//         font-size: 3.5rem;
-//         // clip-path: polygon(0 0, 100% 0, 100% 72vh, 0 100%);
-//         // height: 80vh;
-//     }
-    
-//     @media ${deviceSize.mobileM} {
-//         font-size: 4rem;
-//     }
-    
-//     @media ${deviceSize.mobileL}{
-//         font-size: 5rem;
-//     }
-//     @media ${deviceSize.tablet}{
-//         // clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
-//         // height: 100vh;        
-//     }   
+`
+
+// export const CSBodyHeadingDark = styled.h2`
+//   margin: 0 auto 5rem auto;
+//   color: #FCD73A;
+//   font-size: 2.5rem;
+//   padding-top: 8.9rem;
+//   padding-bottom: 1.5rem;
+//   width: fit-content;
+//   border-bottom: 2px solid #ffffff;
 // `
-// export const IntroTextContainer = styled.div`
-//     position: absolute;
-//     top: 40%;
-//     left: 50%;
-//     transform: translate(-50%, -50%);
-//     text-align: center;
-// `
-// export const IntroTitle = styled.h1`
-//     padding: 7rem 0 0 0;
-//     margin: 0;
-//     line-height: 1.1;
-//     font-size: 1em;
-//     @media ${deviceSize.mobileL}{
-//         padding: .5rem 0 0 0;
-//         font-size: 1.2em;
-//       }
-//       @media ${deviceSize.laptop}{
-//         font-size: 1.5em;
-   
-//     }
 
+// export const CSBodyCopyDark = styled.p`
+//   color: #FFFFFF;
+//   max-width: 85%;
+//   margin: 0 auto;
+//   font-size: 1.6rem;
+//   line-height: 2.7rem;
+//   padding-bottom: 8rem;
 // `
 
-// export const IntroSub = styled.h3`
-//     margin: 0;
-//     color: black;
-//     font-size: .4em;
-//     @media ${deviceSize.mobileL}{
-//       font-size: .6em;    
-
-//     }
+// export const CSBodySectionYellow = styled.div`
+//   margin: 0 auto;
+//   // background-color: #000;
 // `
 
-// export const LinkContainer = styled.div`
-//     display: flex;
-//     justify-content: space-between;
-//     margin: 2% auto;
-//     max-width: 30%;
-//     img-height: 40px;
-//     @media ${deviceSize.tablet}{
-//         max-width: 30%;
-//     }
-//     @media ${deviceSize.laptop}{
-//         max-width: 20%;
-//     }
-    
-//     `
-// export const LogoLink = styled.a`
-//     cursor: pointer;
-//     `
-// export const SocialLogo = styled.img`
-//         height: 25px;
+// export const CSBodyHeadingYellow = styled.h2`
+//   margin: 0 auto 5rem auto;
+//   color: #000000;
+//   font-size: 2.5rem;
+//   padding-top: 8.9rem;
+//   padding-bottom: 1.5rem;
+//   width: fit-content;
+//   border-bottom: 2px solid #ffffff;
+// `
 
-//         @media ${deviceSize.tablet}{
-//             height: 40px;
-//     }
+// export const CSBodyCopyYellow = styled.p`
+//   // color: #000000;
+//   max-width: 85%;
+//   margin: 0 auto;
+//   font-size: 1.6rem;
+//   line-height: 2.7rem;
+//   padding-bottom: 8rem;
+// `
+
+// export const CSBodyListDark = styled.ul`
+//   color: #ffffff;
+//   list-style-type: none;
+//   text-align: left;
+//   font-size: 2rem;
+//   line-height: 2.6rem;
+//   max-width: 70%;
+//   margin: 0 auto;
+//   padding: 0;
+//   // li {
+//   //   color: green;
+//   // }
 // `
