@@ -12,6 +12,9 @@ export const CaseStudyIntroTextContainer = styled.div`
   min-height: 40vh;
   max-width: 90%;
   margin: 0 auto;
+  a {
+    color: #000000;
+  }
 `
 export const CaseStudyTitle = styled.h1`
   margin-top: 4.5rem;
@@ -23,6 +26,7 @@ export const CaseStudyTitle = styled.h1`
   }
   @media ${deviceSize.laptop} {
     font-size: 4.88rem;
+    margin-bottom: 4.5rem;
   }
 `
 export const CaseStudySub = styled.p`
@@ -36,6 +40,7 @@ export const CaseStudySub = styled.p`
   }
   @media ${deviceSize.laptop} {
     font-size: 3.125rem;
+    padding-top: 4.5rem;
   }
 `
 
@@ -59,22 +64,42 @@ export const CSIntroNav = styled.div`
     text-decoration: underline;
   }
   @media ${deviceSize.mobileL} {
-    font-size: 2rem;
+    font-size: 1.6rem;
   }
   @media ${deviceSize.laptop} {
-    font-size: 2.5rem;
+    font-size: 1.8rem;
+    padding-bottom: 11rem;
+    padding-top: 5rem;
   }
 `
 
 export const CSBodySection = styled.div`
   margin: 0 auto;
+
+  .content-container {
+    max-width: 100rem;
+    // width: 100rem;
+    margin: 0 auto;
+  }
   
   p {
-      max-width: 85%;
+    max-width: 85%;
     margin: 0 auto;
     font-size: 1.6rem;
     line-height: 2.7rem;
     padding-bottom: 8rem;
+    text-align: left;
+    @media ${deviceSize.mobileL} {
+      max-width: 50rem;
+      padding-top: 1.5rem;
+      padding-bottom: 10rem;
+    }
+      
+    @media ${deviceSize.laptop} {
+      margin-right: 0;
+      padding-bottom: 13rem;
+      font-size: 1.8rem;
+    }
   }
   
   ul {
@@ -87,10 +112,25 @@ export const CSBodySection = styled.div`
     margin: 0 auto;
     padding: 0;
     padding-bottom: 8rem;
-  
-  li {
-      padding-bottom: 1.5rem;
+    @media ${deviceSize.mobileL} {
+      max-width: 37rem;
+      padding-top: 1.5rem;
+      padding-bottom: 10rem;
     }
+      
+    @media ${deviceSize.laptop} {
+      margin-right: 12rem;
+      // display: flex;
+      // justify-content: space-around;
+      // flex-wrap: wrap;
+      // max-width: 100%
+      // font-size: 2.5rem
+      // gap: 4rem;
+    }
+  
+    li {
+        padding-bottom: 1.5rem;
+      }
   }
   
   h2 {
@@ -101,6 +141,16 @@ export const CSBodySection = styled.div`
     padding-bottom: 1.5rem;
     width: fit-content;
     border-bottom: 2px solid #ffffff;
+    
+    @media ${deviceSize.mobileL} {
+      font-size: 3.12rem;
+    }
+    
+    @media ${deviceSize.laptop} {
+      font-size: 3.9rem;
+      padding-top: 12rem;
+      margin-left: 0;
+    }
   }
   
   a {
@@ -120,60 +170,3 @@ export const CSBodySection = styled.div`
   }
 
 `
-
-// export const CSBodyHeadingDark = styled.h2`
-//   margin: 0 auto 5rem auto;
-//   color: #FCD73A;
-//   font-size: 2.5rem;
-//   padding-top: 8.9rem;
-//   padding-bottom: 1.5rem;
-//   width: fit-content;
-//   border-bottom: 2px solid #ffffff;
-// `
-
-// export const CSBodyCopyDark = styled.p`
-//   color: #FFFFFF;
-//   max-width: 85%;
-//   margin: 0 auto;
-//   font-size: 1.6rem;
-//   line-height: 2.7rem;
-//   padding-bottom: 8rem;
-// `
-
-// export const CSBodySectionYellow = styled.div`
-//   margin: 0 auto;
-//   // background-color: #000;
-// `
-
-// export const CSBodyHeadingYellow = styled.h2`
-//   margin: 0 auto 5rem auto;
-//   color: #000000;
-//   font-size: 2.5rem;
-//   padding-top: 8.9rem;
-//   padding-bottom: 1.5rem;
-//   width: fit-content;
-//   border-bottom: 2px solid #ffffff;
-// `
-
-// export const CSBodyCopyYellow = styled.p`
-//   // color: #000000;
-//   max-width: 85%;
-//   margin: 0 auto;
-//   font-size: 1.6rem;
-//   line-height: 2.7rem;
-//   padding-bottom: 8rem;
-// `
-
-// export const CSBodyListDark = styled.ul`
-//   color: #ffffff;
-//   list-style-type: none;
-//   text-align: left;
-//   font-size: 2rem;
-//   line-height: 2.6rem;
-//   max-width: 70%;
-//   margin: 0 auto;
-//   padding: 0;
-//   // li {
-//   //   color: green;
-//   // }
-// `
