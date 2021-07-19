@@ -6,17 +6,17 @@ import { HashLink } from 'react-router-hash-link';
 import * as ROUTES from '../../../constants/routes';
 
 const EmailDeveloperCaseStudy = () => {
-  const thisPage = ROUTES.EMAIL_DEVELOPER_CASE_STUDY;
+  const thisPage = ROUTES.FORM_CAPTURE_MODAL_CASE_STUDY;
 
   return (
     <CaseStudyContainer>
             <CaseStudyIntroTextContainer>
                 <CaseStudyTitle>
-                    Dynamic, Custom Email Template Creation &amp; Maintenance
+                    Integration of Form Capture with 3rd-Party Tool
                 </CaseStudyTitle>
                 <FontAwesomeIcon icon={faEnvelope} size='3x'/>
                 <CaseStudySub>
-                    I created and maintained email templates that were dynamically populated with custom content for a significant number of daily sends.
+                    I designed, built, and maintained the integration of an external tool that captured email/sms sign up information on StackCommerce’s multiple online shops.
                 </CaseStudySub>
                 <CSIntroNav>
                   Jump to a Section:
@@ -35,8 +35,9 @@ const EmailDeveloperCaseStudy = () => {
                     Background:
                   </h2>
                   <p>
-                    StackCommerce builds and runs branded online shops for many different publishing companies. A major part of their marketing strategy revolves around email, and they use the Iterable service to send a ton of daily emails for marketing and purchasing purposes. Some emails are daily marketing emails, some are transactional emails (such as a shipping confirmation), and others are one-time notifications (such as a password reset).
-                    All of these emails are white label, meaning they need to contain the logo and brand characteristics of a distinct store. Also, some get a payload of event data, while others connect with data feeds for the necessary info.
+                    StackCommerce builds and runs branded online shops for many different publishing companies. A major part of their marketing strategy revolves around email, and they use an external tool to launch a pop-up modal to new visitors to their site.
+                    These modals have a customized appearance depending on the shop where they are displayed.
+                    An additional project I worked on included adding SMS capture as another step to the flow.
                   </p>
                 </div>
               </div>
@@ -48,7 +49,7 @@ const EmailDeveloperCaseStudy = () => {
                     My Role:
                   </h2>
                   <p>
-                    I was responsible for migrating/maintaining the front end aspects of dozens of these emails when they started being sent from Iterable. After the initial setup, I had to regularly make design changes or fix bugs.
+                    I was responsible for creating and maintaining the front end aspects of all of these modals. The 3rd-party tool uses an interface that was designed for people with less technical experience, but it does allow for custom CSS and JavaScript to be added in. I routinely had to find creative ways to hack solutions together that would satisfy our needs.
                   </p>
                 </div>
               </div>
@@ -60,10 +61,9 @@ const EmailDeveloperCaseStudy = () => {
                     Technology Used:
                   </h2>
                   <ul>
+                    <li>JavaScript</li>
                     <li>HTML</li>
                     <li>CSS</li>
-                    <li>Iterable native syntax (similar to JavaScript logic)</li>
-                    <li>Email on Acid testing</li>
                   </ul>
                 </div>
               </div>
@@ -75,7 +75,7 @@ const EmailDeveloperCaseStudy = () => {
                     View Live:
                   </h2>
                   <p>
-                    If you want to see one of these in the wild, head over to <a href="https://stacksocial.com/">StackSocial</a>, <a href="https://www.citizengoods.com/">Citizen Goods</a>, or <a href="https://www.joyus.com/">Joyus</a> and sign up for the newsletter or create an account.
+                    Visit <a href="https://stacksocial.com/">StackSocial</a>, <a href="https://www.citizengoods.com/">Citizen Goods</a>, or <a href="https://www.joyus.com/">Joyus</a> and wait a few seconds to see a box pop up and ask you to subscribe. If it doesn’t appear, try it in a private browsing session.
                   </p>
                 </div>
               </div>
