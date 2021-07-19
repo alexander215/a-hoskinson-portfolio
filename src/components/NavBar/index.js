@@ -15,6 +15,7 @@ const NavBar = () => {
             <HashLink to='/#skills'>Skills</HashLink>
             <HashLink to='/#experience'>Experience</HashLink>
             <HashLink to='/#education'>Education</HashLink>
+            <HashLink to='/case-study'>Case Study</HashLink>
         </NavBarStyle>
     )
 
