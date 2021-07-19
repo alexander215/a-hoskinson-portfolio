@@ -46,6 +46,10 @@ export const ProjectsTextContainer = styled.div`
 export const ProjectCardContainer = styled.div`
     display: flex;
     flex-wrap: wrap;
+    a {
+        text-decoration: none;
+        color: white;
+    }
     
 
 `
@@ -102,6 +106,7 @@ export const ProjectCardTitle = styled.h3`
 export const ProjectLink = styled.div`
     text-align: center;
     margin: 5% 0 0 0;
+    text-decoration: underline;
     a:link {
         color: #F9F9F3;
     }

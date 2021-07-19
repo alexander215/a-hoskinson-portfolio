@@ -14,9 +14,9 @@ const Projects = () => {
                     {/* My Projects: */}
                     Favorite Projects:
                 </SectionHeaderBlack>
-                <ProjectCardContainer>
-                    <Link to={ROUTES.EMAIL_DEVELOPER_CASE_STUDY}>
+                    <ProjectCardContainer>
                         <ProjectCard>
+                        <Link to={ROUTES.EMAIL_DEVELOPER_CASE_STUDY}>
                             <ProjectCardTitle>
                                 Dynamic, Custom Email Template Creation &amp; Maintenance
                             </ProjectCardTitle>
@@ -24,8 +24,19 @@ const Projects = () => {
                                 <ProjectLink>
                                     <Link to={ROUTES.EMAIL_DEVELOPER_CASE_STUDY}>Learn More</Link>
                                 </ProjectLink>
-                        </ProjectCard>
-                    </Link>
+                        </Link>
+                    </ProjectCard>
+                    <ProjectCard>
+                        <Link to={ROUTES.FORM_CAPTURE_MODAL_CASE_STUDY}>
+                            <ProjectCardTitle>
+                                Integration of Form Capture with 3rd-Party Tool
+                            </ProjectCardTitle>
+                                I designed, built, and maintained the integration of an external tool that captured email/sms sign up information on StackCommerce’s multiple online shops.
+                                <ProjectLink>
+                                    <Link to={ROUTES.FORM_CAPTURE_MODAL_CASE_STUDY}>Learn More</Link>
+                                </ProjectLink>
+                        </Link>
+                    </ProjectCard>
 
                     <ProjectCard>
                         <ProjectCardTitle>
@@ -45,30 +56,6 @@ const Projects = () => {
                                 <a href='https://lafpc-food-dashboard.firebaseapp.com/'>Visit the dashboard.</a>
                             </ProjectLink>
                     </ProjectCard>
-                    {/* <ProjectCard>
-                        <ProjectCardTitle>
-                            People Behind the Projects
-                        </ProjectCardTitle>
-                            Full-stack React app that allows early-stage developers to share projects and feedback.
-                            <ProjectLink>
-                                <a href='https://github.com/alexander215/frontend-dev-social-network'>See the GitHub repo.</a>
-                            </ProjectLink>
-                            <ProjectLink>
-                                <a href='https://thepeoplebehindtheprograms.herokuapp.com'>Test your profile.</a>
-                            </ProjectLink>
-                    </ProjectCard>
-                    <ProjectCard>
-                        <ProjectCardTitle>
-                            Escape Route
-                        </ProjectCardTitle>
-                            A trip-planning CRUD app built on MongoDB, Express, and Node.js.
-                            <ProjectLink>
-                                <a href='https://github.com/alexander215/Travel-CRUD-Project'>See the GitHub repo.</a>
-                            </ProjectLink>
-                            <ProjectLink>
-                                <a href='https://protected-tundra-10241.herokuapp.com/'>Plan your trip.</a>
-                            </ProjectLink>
-                    </ProjectCard> */}
                     <ProjectCard>
                         <ProjectCardTitle>
                             Histor-ivia

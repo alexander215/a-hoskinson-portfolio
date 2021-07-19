@@ -1,7 +1,7 @@
 import React from 'react';
 import { CaseStudyContainer, CaseStudyIntroTextContainer, CaseStudyTitle, CaseStudySub, CSIntroNav, CSBodySection, CSBodyHeadingYellow, CSBodyCopyYellow, CSBodyCopyDark, CSBodyListDark } from '../style.js';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faLaptopCode } from '@fortawesome/free-solid-svg-icons'
 import { HashLink } from 'react-router-hash-link';
 import * as ROUTES from '../../../constants/routes';
 
@@ -14,7 +14,7 @@ const EmailDeveloperCaseStudy = () => {
                 <CaseStudyTitle>
                     Integration of Form Capture with 3rd-Party Tool
                 </CaseStudyTitle>
-                <FontAwesomeIcon icon={faEnvelope} size='3x'/>
+                <FontAwesomeIcon icon={faLaptopCode} size='3x'/>
                 <CaseStudySub>
                     I designed, built, and maintained the integration of an external tool that captured email/sms sign up information on StackCommerce’s multiple online shops.
                 </CaseStudySub>
